@@ -1,4 +1,4 @@
-// Project idea by CodeCademy.
+// Project idea by CodeCademy. Here, we convert the kelvin value to fahrenheit.
 
 // Kelvin's variable, wich is constant.
 const kelvin = 293;
