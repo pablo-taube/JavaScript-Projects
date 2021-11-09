@@ -30,3 +30,37 @@ randomNumber === 1 ? eightBall = ('It is certain') : randomNumber === 2 ? eightB
 console.log(`And the answer is: ${eightBall}`);
 
 */
+
+/*
+That's a third way we can reach the same result:
+
+//The following variable is used to store the phrase associated with the number.
+let eightBall = '';
+switch (randomNumber) {
+  case 0:
+    eightBall = 'It is certain';
+    break;
+  case 1:
+    eightBall = 'It is decidedly so';
+    break;  
+  case 2:
+    eightBall = 'Reply hazy try again';
+    break;
+  case 3:
+    eightBall = 'Cannot predict now';
+    break;
+  case 4:
+    eightBall = 'Do not count on it';
+    break;
+  case 5:
+    eightBall = 'My sources say no';
+    break;
+  case 6:
+    eightBall = 'Outlook not so good';
+    break;
+  case 7:
+    eightBall = 'Signs point to yes';
+    break;
+ }
+console.log(`And the answer is: ${eightBall}`);
+*/
