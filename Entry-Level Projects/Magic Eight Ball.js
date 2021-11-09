@@ -18,3 +18,15 @@ let randomNumber = Math.floor(Math.random() * 8);
 // The following expression is used to associate a number to the phrase.
 randomNumber === 1 ? console.log('It is certain') : randomNumber === 2 ? console.log('It is decidedly so') : randomNumber === 3 ? console.log('Reply hazy try again') : randomNumber === 4 ? console.log('Cannot predict now') : randomNumber === 5 ? console.log('Do not count on it') : randomNumber === 6 ? console.log('My sources say no') : randomNumber === 7 ? console.log('Outlook not so good') : console.log('Signs point to yes');
 
+/*
+ That's a second way we can reach the same result:
+
+//The following variable is used to store the phrase associated with the number.
+let eightBall = '';
+
+//
+randomNumber === 1 ? eightBall = ('It is certain') : randomNumber === 2 ? eightBall = ('It is decidedly so') : randomNumber === 3 ? eightBall = ('Reply hazy try again') : randomNumber === 4 ? eightBall = ('Cannot predict now') : randomNumber === 5 ? eightBall = ('Do not count on it') : randomNumber === 6 ? eightBall = ('My sources say no') : randomNumber === 7 ? eightBall = ('Outlook not so good') :  eightBall = ('Signs point to yes');
+
+console.log(`And the answer is: ${eightBall}`);
+
+*/
