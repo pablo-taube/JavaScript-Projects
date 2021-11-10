@@ -15,7 +15,7 @@ Early adults run at 9:30 am.
 Late adults run at 11:00 am.
 Youth registrants run at 12:30 pm (regardless of registration)." 
 
------ by CodeCademic -----
+----- by CodeCademic. All rights reserved. -----
 
 */
 
